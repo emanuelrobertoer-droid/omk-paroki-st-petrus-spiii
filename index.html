@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMK Paroki St. Petrus SP III</title>
+  <style>
+    :root{
+      --gold:#d6a51d; --gold-light:#fff0ba; --gold-dark:#8a650c;
+      --green:#103b25; --cream:#fffaf0; --dark:#262626; --gray:#666;
+      --shadow:0 8px 24px rgba(0,0,0,.09);
+    }
+    *{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--dark);line-height:1.6}
+    header{min-height:95vh;background:linear-gradient(rgba(16,59,37,.78),rgba(138,101,12,.72)),radial-gradient(circle at top,#fff3c4,#d6a51d 40%,#103b25 100%);color:white;display:flex;align-items:center;justify-content:center;text-align:center;padding:35px 18px}
+    .hero{max-width:1050px}.logo-row{display:flex;justify-content:center;align-items:center;gap:22px;flex-wrap:wrap;margin-bottom:22px}
+    .logo-row img{width:145px;height:145px;object-fit:cover;border-radius:50%;background:white;padding:8px;box-shadow:var(--shadow)}
+    .badge{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.45);padding:8px 18px;border-radius:999px;font-weight:bold;margin-bottom:18px}
+    header h1{font-size:clamp(2rem,6vw,4rem);margin-bottom:12px} header h2{font-size:clamp(1.15rem,4vw,2rem);color:#fff2b0;margin-bottom:14px}
+    header p{max-width:840px;margin:0 auto 16px;font-size:1.1rem}.moto{font-style:italic;font-weight:bold;color:#fff8dd;margin-bottom:10px}.verse{font-style:italic;color:#fff8dd;margin-bottom:24px}
+    .hero-actions a{display:inline-block;margin:8px;padding:13px 24px;border-radius:999px;text-decoration:none;font-weight:bold}.btn-primary{background:white;color:var(--green)}.btn-secondary{border:2px solid white;color:white}
+    nav{position:sticky;top:0;z-index:99;background:white;box-shadow:0 3px 16px rgba(0,0,0,.08);text-align:center;padding:10px}
+    nav a{color:var(--green);text-decoration:none;font-weight:bold;display:inline-block;margin:7px 9px;font-size:.95rem}
+    main{max-width:1180px;margin:auto;padding:25px 14px} section{background:white;margin:24px 0;padding:28px;border-radius:22px;box-shadow:var(--shadow)}
+    h2{color:var(--green);margin-bottom:18px;padding-left:12px;border-left:6px solid var(--gold)} .section-note{color:var(--gray);margin-bottom:20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:17px}.card{background:var(--cream);border:1px solid #efdca0;border-radius:17px;padding:18px}.card h3{color:var(--green);margin-bottom:8px}
+    .profile-box{display:grid;grid-template-columns:180px 1fr;gap:22px;align-items:center}.profile-box img{width:180px;height:180px;object-fit:cover;border-radius:50%;border:5px solid var(--gold-light)}
+    .announcement{border-left:6px solid var(--gold);background:#fff7db}.ticker{overflow:hidden;background:var(--green);color:white;border-radius:16px;padding:12px;margin-top:18px}.ticker span{display:inline-block;white-space:nowrap;animation:jalan 18s linear infinite;font-weight:bold}
+    @keyframes jalan{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+    table{width:100%;border-collapse:collapse;margin-top:14px;background:white}th,td{border:1px solid #ead18a;padding:11px;text-align:left}th{background:var(--green);color:white}.table-wrap{overflow-x:auto}
+    .tag{display:inline-block;padding:5px 10px;border-radius:999px;font-size:.85rem;font-weight:bold;background:var(--gold-light);color:var(--gold-dark)}
+    .album{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}.photo{height:150px;border-radius:16px;background:linear-gradient(135deg,#fff1b8,#fff);border:2px dashed var(--gold);display:flex;align-items:center;justify-content:center;text-align:center;color:var(--gold-dark);font-weight:bold;padding:10px}
+    input,textarea,select{width:100%;padding:12px;border:1px solid #dec477;border-radius:12px;margin:7px 0 14px;font-family:Arial,Helvetica,sans-serif}
+    button{background:var(--green);color:white;border:none;padding:12px 20px;border-radius:999px;font-weight:bold;cursor:pointer}.contact-box{display:flex;flex-wrap:wrap;gap:12px}.wa{background:#25d366;color:white;padding:12px 17px;border-radius:999px;text-decoration:none;font-weight:bold;display:inline-block}
+    .admin-note{background:#fff7db;border:1px solid #efd27d;padding:15px;border-radius:14px;margin-top:16px;color:var(--gold-dark);font-weight:bold}
+    .footer{background:var(--green);color:white;text-align:center;padding:30px 15px;margin-top:35px}.footer img{width:80px;height:80px;object-fit:cover;border-radius:50%;background:white;padding:5px;margin-bottom:10px}
+    ul{padding-left:20px}
+    @media(max-width:720px){section{padding:20px}nav{max-height:135px;overflow-y:auto}.logo-row img{width:115px;height:115px}.hero-actions a{width:90%}.profile-box{grid-template-columns:1fr;text-align:center}.profile-box img{margin:auto}}
+  </style>
+</head>
+<body>
+<header id="beranda">
+  <div class="hero">
+    <div class="logo-row">
+      <img src="logo-omk.png" alt="Logo OMK">
+      <img src="logo-paroki.png" alt="Logo Paroki">
+    </div>
+    <div class="badge">Website Resmi OMK</div>
+    <h1>OMK Paroki St. Petrus SP III</h1>
+    <h2>Timika – Papua Tengah</h2>
+    <p>Media informasi resmi Orang Muda Katolik Paroki St. Petrus SP III untuk kegiatan, pelayanan, agenda, kalender paroki, dokumentasi, dan transparansi organisasi.</p>
+    <p class="moto">"Beriman, Berkarya, dan Melayani dalam Semangat Kristus."</p>
+    <p class="verse">"Engkau adalah Mesias, Anak Allah yang hidup." — Matius 16:16</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="#agenda">Lihat Agenda</a>
+      <a class="btn-secondary" href="#kontak">Hubungi Pengurus</a>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <a href="#beranda">Beranda</a><a href="#profil">Profil</a><a href="#pengumuman">Pengumuman</a><a href="#agenda">Agenda</a><a href="#kalender">Kalender</a><a href="#hari-besar">Hari Besar</a><a href="#pengurus">Pengurus</a><a href="#album">Album</a><a href="#keuangan">Keuangan</a><a href="#komentar">Komentar</a><a href="#kontak">Kontak</a>
+</nav>
+
+<main>
+<section id="profil">
+  <h2>Profil OMK dan Paroki</h2>
+  <div class="profile-box">
+    <img src="logo-omk.png" alt="Logo OMK Paroki">
+    <div>
+      <h3>Orang Muda Katolik Paroki St. Petrus SP III</h3>
+      <p>OMK Paroki St. Petrus SP III adalah wadah orang muda Katolik untuk bertumbuh dalam iman, pelayanan, kreativitas, persaudaraan, dan keterlibatan aktif dalam kehidupan Gereja.</p>
+      <p><strong>Pastor Paroki:</strong> Leo Adiwidiangga SCJ</p>
+      <p><strong>Ketua OMK:</strong> Alamdhani Onan</p>
+      <p><strong>Moto OMK:</strong> Beriman, Berkarya, dan Melayani dalam Semangat Kristus.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pengumuman"><h2>Pengumuman Terbaru</h2><div class="grid"><div class="card announcement"><h3>HUT Paroki St. Petrus SP III</h3><p>Kegiatan lomba HUT Paroki akan dilaksanakan pada tanggal <strong>4–5 Juli 2026</strong>.</p></div><div class="card announcement"><h3>Batas Pendaftaran</h3><p>Pendaftaran kegiatan ditutup pada tanggal <strong>28 Juni 2026</strong> melalui stasi masing-masing.</p></div><div class="card announcement"><h3>Rapat OMK</h3><p>Pengurus OMK Paroki dan stasi diharapkan mengikuti rapat koordinasi sesuai jadwal.</p></div></div><div class="ticker"><span>📢 Selamat datang di Website OMK Paroki St. Petrus SP III — Beriman, Berkarya, dan Melayani dalam Semangat Kristus.</span></div></section>
+
+<section id="agenda"><h2>Agenda Kegiatan OMK Paroki</h2><p class="section-note">Agenda ini menampilkan kegiatan OMK Paroki, kegiatan stasi, pelayanan, dan kegiatan besar paroki.</p><div class="grid"><div class="card"><span class="tag">OMK</span><h3>Pertemuan Rutin OMK</h3><p>Koordinasi, pembinaan iman, dan rencana kegiatan OMK.</p></div><div class="card"><span class="tag">Pelayanan</span><h3>Pelayanan Liturgi</h3><p>Koor, lektor, mazmur, tata tertib, dan pelayanan misa.</p></div><div class="card"><span class="tag">Sosial</span><h3>Bakti Sosial</h3><p>Kegiatan kepedulian OMK untuk umat dan masyarakat sekitar.</p></div><div class="card"><span class="tag">Kreatif</span><h3>Usaha Dana</h3><p>Bazar, penjualan makanan, dan kegiatan kreatif untuk mendukung pelayanan OMK.</p></div></div></section>
+
+<section id="kalender"><h2>Kalender Kegiatan Paroki</h2><div class="table-wrap"><table><tr><th>Tanggal</th><th>Kegiatan</th><th>Kategori</th><th>Tempat</th></tr><tr><td>28 Juni 2026</td><td>Batas pendaftaran lomba HUT Paroki</td><td>OMK / Paroki</td><td>Stasi masing-masing</td></tr><tr><td>4–5 Juli 2026</td><td>Lomba HUT Paroki St. Petrus SP III</td><td>Paroki</td><td>Gereja Paroki St. Petrus SP III</td></tr><tr><td>Setiap Bulan</td><td>Rapat dan pembinaan OMK</td><td>OMK</td><td>Paroki / Stasi</td></tr></table></div></section>
+
+<section id="hari-besar"><h2>Hari-Hari Besar Gereja</h2><div class="grid"><div class="card"><h3>Natal</h3><p>Perayaan kelahiran Tuhan Yesus Kristus.</p></div><div class="card"><h3>Paskah</h3><p>Perayaan kebangkitan Tuhan Yesus Kristus.</p></div><div class="card"><h3>Pentakosta</h3><p>Perayaan turunnya Roh Kudus atas para rasul.</p></div><div class="card"><h3>Kenaikan Tuhan</h3><p>Perayaan Yesus naik ke surga.</p></div><div class="card"><h3>St. Petrus dan Paulus</h3><p>Hari raya para rasul dan teladan iman Gereja.</p></div><div class="card"><h3>Santa Perawan Maria</h3><p>Perayaan devosi dan teladan iman Bunda Maria.</p></div></div></section>
+
+<section id="pengurus">
+  <h2>Daftar Pengurus OMK dan Stasi</h2>
+  <p class="section-note">Data pengurus berikut dapat dilengkapi kembali sesuai struktur resmi.</p>
+  <div class="grid">
+    <div class="card"><h3>Pengurus OMK Paroki</h3><p>Pastor Paroki: Leo Adiwidiangga SCJ</p><p>Ketua OMK: Alamdhani Onan</p><p>Sekretaris: Nama Sekretaris</p><p>Bendahara: Nama Bendahara</p></div>
+    <div class="card"><h3>Stasi St. Petrus</h3><p>Koordinator OMK: Nama Koordinator</p></div>
+    <div class="card"><h3>Stasi St. Gregorius Mile 32</h3><p>Koordinator OMK: Nama Koordinator</p></div>
+    <div class="card"><h3>Stasi St. Yakobus Iwaka</h3><p>Koordinator OMK: Nama Koordinator</p></div>
+    <div class="card"><h3>Stasi Keluarga Kudus SP 9</h3><p>Koordinator OMK: Nama Koordinator</p></div>
+    <div class="card"><h3>Stasi Hati Kudus Yesus SP 7</h3><p>Koordinator OMK: Nama Koordinator</p></div>
+    <div class="card"><h3>Stasi St. Yosep Kuala Kencana</h3><p>Koordinator OMK: Nama Koordinator</p></div>
+    <div class="card"><h3>Stasi St. Yohanes Pembaptis SP 13</h3><p>Koordinator OMK: Nama Koordinator</p></div>
+    <div class="card"><h3>Stasi St. Mikhael Pola Asrama</h3><p>Koordinator OMK: Nama Koordinator</p></div>
+  </div>
+</section>
+
+<section id="album"><h2>Album Kegiatan</h2><p class="section-note">Tempat dokumentasi kegiatan OMK, HUT Paroki, bakti sosial, retret, rekoleksi, Natal, dan Paskah.</p><div class="album"><div class="photo">Foto Retret / Rekoleksi</div><div class="photo">Foto HUT Paroki</div><div class="photo">Foto Bakti Sosial</div><div class="photo">Foto Natal</div><div class="photo">Foto Paskah</div><div class="photo">Foto Pertemuan OMK</div></div></section>
+
+<section id="keuangan"><h2>Ringkasan Laporan Keuangan</h2><p class="section-note">Untuk transparansi publik, website menampilkan ringkasan pemasukan, pengeluaran, dan saldo. Bukti detail dapat disimpan oleh pengurus.</p><div class="table-wrap"><table><tr><th>Bulan</th><th>Pemasukan</th><th>Pengeluaran</th><th>Saldo</th></tr><tr><td>Juli 2026</td><td>Rp 2.000.000</td><td>Rp 1.200.000</td><td>Rp 800.000</td></tr><tr><td>Agustus 2026</td><td>Rp 1.500.000</td><td>Rp 900.000</td><td>Rp 600.000</td></tr></table></div></section>
+
+<section id="dana"><h2>Sumber Pendanaan</h2><div class="grid"><div class="card"><h3>Donasi Umat</h3><p>Dukungan sukarela dari umat dan simpatisan.</p></div><div class="card"><h3>Iuran Anggota</h3><p>Iuran OMK sesuai kesepakatan bersama.</p></div><div class="card"><h3>Bazar</h3><p>Kegiatan penjualan makanan atau produk kreatif.</p></div><div class="card"><h3>Sponsor Kegiatan</h3><p>Dukungan dari pihak yang ingin membantu kegiatan OMK.</p></div></div></section>
+
+<section id="komentar"><h2>Kolom Komentar dan Aspirasi</h2><p class="section-note">Pengunjung dapat mengirim saran, aspirasi, dan ide kegiatan. Pada versi online penuh, komentar sebaiknya diperiksa admin sebelum tampil.</p><form onsubmit="kirimKomentar(event)"><label>Nama</label><input type="text" id="nama" placeholder="Masukkan nama Anda" required><label>Kategori</label><select id="kategori"><option>Saran</option><option>Aspirasi</option><option>Pertanyaan</option><option>Ide Kegiatan</option></select><label>Komentar</label><textarea id="pesan" rows="5" placeholder="Tulis komentar atau aspirasi Anda" required></textarea><button type="submit">Kirim Komentar</button></form><div id="hasilKomentar"></div></section>
+
+<section id="kontak"><h2>Kontak OMK</h2><p class="section-note">Hubungi pengurus untuk informasi kegiatan, pendaftaran, atau koordinasi OMK Paroki St. Petrus SP III.</p><div class="contact-box"><a class="wa" href="https://wa.me/6282132042681" target="_blank">WhatsApp Sdr. Alam</a><a class="wa" href="https://wa.me/6285244902541" target="_blank">WhatsApp Sdri. Laura</a></div><p style="margin-top:15px;">Sdr. Alam: 0821-3204-2681</p><p>Sdri. Laura: 0852-4490-2541</p><div class="admin-note">Catatan: Website ini bersifat publik. Semua umat dapat membaca informasi, tetapi perubahan isi website hanya dilakukan oleh admin/pengurus.</div></section>
+</main>
+
+<div class="footer"><img src="logo-omk.png" alt="Logo OMK"><p>&copy; 2026 OMK Paroki St. Petrus SP III</p><p>Timika – Papua Tengah</p><p>Beriman, Berkarya, dan Melayani dalam Semangat Kristus.</p></div>
+
+<script>
+function kirimKomentar(event){
+  event.preventDefault();
+  const nama=document.getElementById("nama").value;
+  const kategori=document.getElementById("kategori").value;
+  const pesan=document.getElementById("pesan").value;
+  const hasil=document.getElementById("hasilKomentar");
+  const komentar=document.createElement("div");
+  komentar.className="card";
+  komentar.style.marginTop="15px";
+  komentar.innerHTML=`<h3>${nama}</h3><p><strong>${kategori}</strong></p><p>${pesan}</p>`;
+  hasil.prepend(komentar);
+  event.target.reset();
+}
+</script>
+</body>
+</html>
